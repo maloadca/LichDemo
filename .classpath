@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="D:/Droid/adt-windows-x86_64-20130219/jcifs-1.1.11.jar" sourcepath="D:/Soft/Droid/adt-bundle-windows-x86_64-20130219/jcifs-1.1.11.jar"/>
+	<classpathentry kind="lib" path="D:/Droid/adt-windows-x86_64-20130219/ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar" sourcepath="D:/Soft/Droid/adt-bundle-windows-x86_64-20130219/ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

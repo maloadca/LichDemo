@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+     
+	    <TextView
+	        android:text="@string/lblServiceUrl"
+	        android:layout_height="wrap_content"
+		    android:layout_width="fill_parent" 
+		    android:orientation="vertical"/>
+	    
+	    <EditText 
+		    android:id="@+id/txtServiceUrl"
+		    android:layout_height="wrap_content"
+		    android:layout_width="fill_parent"
+		    android:hint="@string/lblServiceUrl" 
+		    android:inputType="textUri"/>
+	    
+	    <TextView
+	        android:text="@string/lblRowLimit"
+	        android:layout_height="wrap_content"
+		    android:layout_width="fill_parent" />
+	    
+	    <EditText 
+		    android:id="@+id/txtRowLimit"
+		    android:layout_height="wrap_content"
+		    android:layout_width="fill_parent"
+		    android:inputType="number"
+			android:maxLength="3" />
+	
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lblUserName" />
+	
+	    <EditText
+	        android:id="@+id/txtUserName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10" 
+	        android:inputType="text">
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lblPassword" />
+	
+	    <EditText
+	        android:id="@+id/txtPassword"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="textPassword" />
+	
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lblDomain" />
+	
+	    <EditText
+	        android:id="@+id/txtDomain"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="text" />
+	    
+	    <TextView
+	        android:text="@string/lblOptions"
+	        android:layout_height="wrap_content"
+		    android:layout_width="fill_parent" />
+	    
+	    <RadioGroup 
+	        android:id="@+id/rdbGpOptions"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+				<RadioButton 
+				    android:id="@+id/rdb1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/lblGetAllEvents"
+					android:enabled="false" />
+				<RadioButton 
+				    android:id="@+id/rdb2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/lblGetLastMonthEvents"
+					android:checked="true"
+					android:enabled="false" />
+		</RadioGroup>
+		
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="#00ff00"
+	        android:id="@+id/lblLastUpdate"
+	        android:visibility="gone" />
+	
+	    <Button 
+	        android:id="@+id/btnStartService"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/lblStartService" />
+    
+		<Button 
+		    android:id="@+id/btnStopService"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/lblStopService" />
+		</LinearLayout>
+		
+	</ScrollView>
+</LinearLayout>

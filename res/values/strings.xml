@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SyncSharePointCalendar</string>
+    <string name="lblServiceUrl">SharePoint Service URL</string>
+    <string name="lblRowLimit">Row Limit</string>
+    <string name="lblTimer">Timer By Hours</string>
+    <string name="lblOptions">Options</string>
+    <string name="lblGetAllEvents">Get All Events</string>
+    <string name="lblGetLastMonthEvents">Get Last Events</string>
+    <string name="lblStartService">Start Service</string>
+    <string name="lblStopService">Stop Service</string>
+    <string name="StopMsg">Service stopped Successfully</string>
+    <string name="StartMsg">Service started Successfully</string>
+    <string name="lblnotification">Notification Details</string>
+    <string name="notificationtitle">SharePoint Sync Notification</string>
+    <string name="notificationdesc">Status of SharePoint Sync Notification</string>
+    <string name="msgImported">Events imported from SharePoint Successfully</string>
+    <string name="msgImportedFailed">Failed to Import Events From SharePoint</string>
+    <string name="msgLastUpdate">Last Update Time was in </string>
+    <string name="lblUserName">User name</string>
+    <string name="lblPassword">Password</string>
+    <string name="lblDomain">Domain</string>
+    
+
+</resources>
